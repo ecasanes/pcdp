@@ -1,0 +1,4 @@
+SELECT count(id) FROM name_database WHERE gender='male' AND status='widow'
+AND occupation = 'un-employed' AND (age >= 15 AND age <= 35) AND property = 'totally damage' AND death > 0
+
+SELECT count(property) FROM name_database WHERE property = 'partially damage' AND (age >= 15 AND age <= 35) AND gender = 'male' AND occupation = 'un-employed'

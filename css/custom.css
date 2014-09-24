@@ -1,0 +1,41 @@
+.video-responsive{
+	width:100%;
+	height:100%;
+}
+
+
+@media print 
+{
+    #sidebar{
+		display:none;
+	}
+	
+	#breadcrumbs{
+		display:none;
+	}
+	
+	div.page-header{
+		display:none;
+	}
+	
+	div.main-content{
+		margin-left:0px;
+		margin-right:50px;
+	}
+	
+	#bar-chart-options-container, #pie-chart-options-container{
+		display:none;
+	}
+	
+	.widget-box, .widget-box>.widget-body{
+		border:0;
+	}
+	
+	.widget-header{
+		display:none;
+	}
+
+	.no-print{
+		display:none;
+	}
+}
